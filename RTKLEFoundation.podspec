@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://RTKLEFoundation.com'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Erick' => 'erick@karadigital.co' }
-  s.source       = { :git => 'git@github.com:KDSI-Erick/RTKOTASDK.git', }
+  s.source       = { :git => 'git@github.com:KDSI-Erick/RTKOTASDK.git' }
 
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
