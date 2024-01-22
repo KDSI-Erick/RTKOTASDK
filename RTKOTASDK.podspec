@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name         = 'RTKOTASDK'
   s.version      = '1.0.0'
   s.summary      = 'RTKOTASDK Framework'
-  s.homepage     = '<repository_url>'
+  s.homepage     = 'https://RTKOTASDK.com'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Your Name' => 'your.email@example.com' }
-  s.source       = { :git => 'git@github.com:KDSI-Erick/RTKOTASDK.git', :tag => s.version.to_s }
+  s.author       = { 'Erick' => 'erick@karadigital.co' }
+  s.source       = { :git => 'git@github.com:KDSI-Erick/RTKOTASDK.git', :tag => 1.0.0 }
 
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
