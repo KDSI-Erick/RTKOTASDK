@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
 
   # Specify the path to your framework
-  s.vendored_frameworks = 'RTKOTASDK.framework'
+  s.vendored_frameworks = 'RTKOTASDK.framework', 'RTKLEFoundation.framework'
 
   # Add other dependencies if needed
   # s.dependency 'SomeOtherPod', '1.0.0'
